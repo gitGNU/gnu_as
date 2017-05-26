@@ -182,10 +182,10 @@ AUTOMAKE = ${SHELL} /Users/raliclo/Library/Caches/Homebrew/binutils-gdb/missing 
 AWK = awk
 CATALOGS =  es.gmo fi.gmo fr.gmo id.gmo ja.gmo ru.gmo rw.gmo sv.gmo tr.gmo uk.gmo zh_CN.gmo es.gmo fi.gmo fr.gmo id.gmo ja.gmo ru.gmo rw.gmo sv.gmo tr.gmo uk.gmo zh_CN.gmo
 CATOBJEXT = .gmo
-CC = gcc
+CC = gcc -O3
 CCDEPMODE = depmode=gcc3
 CFLAGS =  -O3 -fomit-frame-pointer 
-CPP = gcc -E
+CPP = gcc -O3 -E
 CPPFLAGS =  
 CYGPATH_W = echo
 DATADIRNAME = share
