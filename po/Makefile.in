@@ -55,7 +55,7 @@ stamp-cat-id $(POFILES) $(GMOFILES) $(SOURCES)
 
 POTFILES = \
 
-CATALOGS =  es.gmo fi.gmo fr.gmo id.gmo ja.gmo ru.gmo rw.gmo sv.gmo tr.gmo uk.gmo zh_CN.gmo
+CATALOGS =  es.gmo fi.gmo fr.gmo id.gmo ja.gmo ru.gmo rw.gmo sv.gmo tr.gmo uk.gmo zh_CN.gmo es.gmo fi.gmo fr.gmo id.gmo ja.gmo ru.gmo rw.gmo sv.gmo tr.gmo uk.gmo zh_CN.gmo
 CATOBJEXT = .gmo
 INSTOBJEXT = .mo
 

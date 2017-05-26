@@ -155,7 +155,7 @@ AUTOCONF = ${SHELL} /Users/raliclo/Library/Caches/Homebrew/binutils-gdb/missing 
 AUTOHEADER = ${SHELL} /Users/raliclo/Library/Caches/Homebrew/binutils-gdb/missing --run autoheader
 AUTOMAKE = ${SHELL} /Users/raliclo/Library/Caches/Homebrew/binutils-gdb/missing --run automake-1.11
 AWK = awk
-CATALOGS =  es.gmo fi.gmo fr.gmo id.gmo ja.gmo ru.gmo rw.gmo sv.gmo tr.gmo uk.gmo zh_CN.gmo
+CATALOGS =  es.gmo fi.gmo fr.gmo id.gmo ja.gmo ru.gmo rw.gmo sv.gmo tr.gmo uk.gmo zh_CN.gmo es.gmo fi.gmo fr.gmo id.gmo ja.gmo ru.gmo rw.gmo sv.gmo tr.gmo uk.gmo zh_CN.gmo
 CATOBJEXT = .gmo
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -207,7 +207,7 @@ MSGFMT = /usr/local/opt/gettext/bin/msgfmt
 MSGMERGE = /usr/local/opt/gettext/bin/msgmerge
 NM = /usr/local/bin/nm -B
 NMEDIT = nmedit
-NO_WERROR = -Wno-error
+NO_WERROR = 
 OBJDUMP = objdump
 OBJEXT = o
 OPCODES_LIB = ../opcodes/libopcodes.la
@@ -229,8 +229,8 @@ SHELL = /bin/sh
 STRIP = strip
 USE_NLS = yes
 VERSION = 2.28.51
-WARN_CFLAGS = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Werror
-WARN_CFLAGS_FOR_BUILD = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wstack-usage=262144 -Werror
+WARN_CFLAGS = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow
+WARN_CFLAGS_FOR_BUILD = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wstack-usage=262144
 WARN_WRITE_STRINGS = -Wwrite-strings
 XGETTEXT = /usr/local/opt/gettext/bin/xgettext
 YACC = bison -y
